@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: thistle;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    height: 240px;
+    width: 200px;
+}
+.two, .three, .four{
+    display: none;
+}
+.second{    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.second img{
+    height: 120px;
+    width: 100px;
+}
